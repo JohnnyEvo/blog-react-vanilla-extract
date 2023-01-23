@@ -6,6 +6,10 @@ export const container = style([
     sprinkles({
         padding: 'default'
     }), {
-    background: themeVars.colors.base
+        background: themeVars.colors.base,
+        width: "100%",
+        maxWidth: "630px",
+        margin: "auto",
+        height: "100vh"
     }
-])
+]);

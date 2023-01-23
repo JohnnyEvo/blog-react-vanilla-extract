@@ -19,3 +19,6 @@ globalStyle('img', {
     maxWidth: '100%',
     height: 'auto'
 });
+globalStyle('input', {
+    all: 'unset',
+});

@@ -1,5 +1,5 @@
 import {FunctionComponent, ReactNode} from "react";
-import {c} from "@/styles/index.css";
+import {container} from "@/styles/components/container.css";
 
 type Props = {
     children: ReactNode
@@ -7,7 +7,7 @@ type Props = {
 const Container: FunctionComponent<Props> = ({children}) => {
     return (
      <>
-         <div className={c.container}>
+         <div className={container}>
              {children}
          </div>
      </>

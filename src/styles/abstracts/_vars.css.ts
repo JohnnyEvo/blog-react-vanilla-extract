@@ -11,3 +11,15 @@ export const color = {
     alternative: '#232323',
     shade: '#021A27',
 }
+
+export const spacing = {
+    none: 0,
+    small: ".7rem",
+    default: "1rem",
+    large: "2.1rem",
+}
+
+export const radius = {
+    normal: '3px',
+    rounded: '999px',
+}
