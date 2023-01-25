@@ -5,11 +5,22 @@ export const font = {
 }
 
 export const color = {
-    base: '#F5F5F5',
-    highlight: '#FA5961',
-    secondary: '#063C58',
-    alternative: '#232323',
-    shade: '#021A27',
+    light: {
+        base: '#F5F5F5',
+        font: '#333',
+        shade: '#fff',
+        highlight: '#FA5961',
+        secondary: '#063C58',
+        alternative: '#232323',
+    },
+    dark: {
+        base: '#000',
+        font: '#eee',
+        shade: '#000',
+        highlight: '#b259fa',
+        secondary: '#063C58',
+        alternative: '#232323',
+    }
 }
 
 export const spacing = {

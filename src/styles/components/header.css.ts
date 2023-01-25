@@ -7,14 +7,14 @@ export const header = style([
         flexDirection: {
             mobile: "column",
             desktop: "row",
-        }
+        },
+        marginBottom: "default"
     }),
     {
         display: "flex",
-        height: "62px",
         width: "100%",
         alignItems: "center",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
     }
 ]);
 
@@ -35,6 +35,7 @@ export const separator = style({
     color: themeVars.colors.highlight,
     marginRight: "10px",
     marginLeft: "10px",
+    paddingTop: "7px",
 });
 
 export const subTitle = style({

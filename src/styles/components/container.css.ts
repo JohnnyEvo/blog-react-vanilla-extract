@@ -8,8 +8,7 @@ export const container = style([
     }), {
         background: themeVars.colors.base,
         width: "100%",
-        maxWidth: "630px",
-        margin: "auto",
-        height: "100vh"
+        height: "100vh",
+        overflow: "scroll"
     }
 ]);

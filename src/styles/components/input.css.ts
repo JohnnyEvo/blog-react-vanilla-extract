@@ -12,6 +12,7 @@ export const group = style([
         height: "25px",
         display: "grid",
         grid: "auto-flow / 24px auto",
+        backgroundColor: themeVars.colors.shade
     }
 ]);
 

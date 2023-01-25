@@ -12,11 +12,21 @@ const responsiveProperties = defineProperties({
     defaultCondition: 'mobile',
     properties: {
         flexDirection: ['row', 'column'],
+        grid: {
+            stack: "auto-flow / 1fr",
+            ['2-cols']: "auto-flow / 1fr 1fr",
+            ['3-cols']: "auto-flow / 1fr 1fr 1fr",
+            ['main-desktop']: "auto-flow / 1fr minmax(680px, 800px) 1fr",
+            ['main-tablet']: "auto-flow /1fr 1fr",
+            ['main-mobile']: "auto-flow / 1fr",
+        },
         padding: spacing,
         marginTop: spacing,
         marginBottom: spacing,
         marginLeft: spacing,
         marginRight: spacing,
+        gap: spacing,
+        display: ["none", "block"]
     },
     shorthands: {
         marginY: [

@@ -19,10 +19,11 @@ export const pill = style([
         height: "21px",
         width: "62px",
         textAlign: "center",
-        border: "1px solid #fff",
+        border: "1px solid",
+        borderColor: themeVars.colors.shade,
         fontWeight: 100,
         textTransform: "lowercase",
-        color: "white",
+        color: themeVars.colors.shade,
         fontSize: "1.2rem",
         display: "flex",
         alignItems: "center",
@@ -34,7 +35,8 @@ export const pill = style([
             "&:last-child": {
                 marginRight: 0,
             },
-        }
+        },
+        cursor: "pointer"
     }
 ])
 export const background = styleVariants({

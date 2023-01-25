@@ -1,17 +1,12 @@
-import {FunctionComponent} from "react";
-import {nav, separator, container} from "@/styles/components/nav.css";
+import {container} from "@/styles/components/nav.css";
 import Pill from "@/components/pill";
 
-const Nav: FunctionComponent = () => {
+const Nav = () => {
     return (
-        <nav className={nav}>
-            <hr className={`${separator}`}/>
-            <div className={container}>
-                <Pill variant={"primary"} />
-                <Pill variant={"secondary"} />
-                <Pill variant={"alternative"}/>
-            </div>
-            <hr className={`${separator}`}/>
+        <nav className={container}>
+            <Pill variant={"primary"} />
+            <Pill variant={"secondary"} />
+            <Pill variant={"alternative"}/>
         </nav>
     )
 }
